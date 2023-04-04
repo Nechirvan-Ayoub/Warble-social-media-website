@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <title>Warble</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4dd1f259b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--main page-->
+    <section class="main-page">
+        <!--left-->
+        <div class="left">
+            <div class="left-content">
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h3 class="left-content-heading">
+                        Find your interests
+                    </h3>
+                </div>
+                <div>
+                    <i class="fas fa-user-friends"></i>
+                    <h3 class="left-content-heading">
+                        Explore what are people talking about
+                    </h3>
+                </div>
+                <div>
+                    <i class="fas fa-comment"></i>
+                    <h3 class="left-content-heading">
+                        Join the people
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <!--end of left-->
+
+        <!--right-->
+        <div class="right">
+            <div class="right-content">
+                <form class="right-content-form">
+                    <input type="text" class="user-info" placeholder="Phone, email, or usernsme">
+                    <div>
+                        <input type="password" class="password" placeholder="password">
+                        <label>
+                            Forgot Password?
+                        </label>
+                    </div>
+                    <button type="button" class="btn-top">Log in</button>
+
+                </form>
+                <div class="middle-content">
+                    <i class="fa-brands fa-earlybirds"></i>
+                    <h1>Exlore what's happening in the world</h1>
+                    <h4>Join<span style="font-weight: 900; color: #1d7874;"> Warble </span>today</h4>
+                    <button type="button" class="sign-up main-btn">Sign Up</button>
+                    <button type="button" class="log-in main-btn">Log In</button>
+                </div>
+            </div>
+        </div>
+        <!--end of right-->
+
+        <!--footer-->
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">&copy; 2023 Warble</a></li>                
+            </ul>
+        </footer>
+        <!--end of footer-->
+
+    </section>
+    <!--end of main page-->
+    <!--login-pag-->
+    <section class="login-page">
+      <!--login page nav-->
+      <nav class="login-page-nav">
+       <ul>
+        <li class="brand"><a href="#"><i class="fa-brands fa-earlybirds"></i>Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Language: English</a></li>
+       </ul>
+      </nav>
+      <!-- end of login page nav-->
+      <!--login-->
+      <div class="login">
+        <div class="login-content">
+            <h2>
+                Log in to Warble
+            </h2>
+            <form class="login-form">
+                <input type="text" placeholder="Phone, email, or username" class="login-user-info">
+                <input type="password" placeholder="Password" class="login-password">
+                <div >
+                    <button type="button" class="login-form-btn">Log In</button>
+                    <input type="checkbox" class="login-form-checkbox" id="check">
+                    <label for="check">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+        <footer class="login-footer">
+            <p>New to Warble? <a href="#">Sign up now!</a></p>
+            <p>Already using Warble via text message? <a href="#">Activate your account</a></p>
+
+        </footer>
+      </div>
+      <!--end of login-->
+      <!--login-modal-->
+      <div class="login-modal">
+        <i class="fas fa-times"></i>
+        <p>The username and the pssword you've entered did'nt match our records. Please double check and try again</p>
+      </div>
+
+      <!--end of login-modal-->
+    </section>
+    <!--end of login page-->
+
+    <!--feeds page-->
+    <section class="feeds-page">
+        <!--feeds nav-->
+        <nav class="feeds-nav dark-mode-1">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Warble" class="search-bar-input dark-mode-2 light-cl border">
+            </div>
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="images/user1.jpg">
+                </div>
+                <p  class="user-link light-cl">
+                    Jane Smith
+                </p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </nav>
+        <!--end of feeds nav-->
+        <!--feeds content-->
+        <div class="feeds-content dark-mode-2">
+         <div class="feeds-header dark-mode-1" >
+             <div class="header-top border">
+                <h4 class="light-cl">Home</h4>
+                <i class="far fa-star"></i>
+             </div>
+             <div class="header-post dark-mode-1 border">
+                <div class="header-img-wrapper">
+                    <img src="images/user1.jpg" >
+                </div>
+                <input type="text" placeholder="What's happening?" class="dark-mode-2 light-cl border">
+                <i class="far fa-image"></i>
+                <i class="fas fa-camera"></i>
+                <i class="far fa-chart-bar"></i>
+             </div>
+         </div>
+         <div class="posts dark-mode-1">
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Helen Brown</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@helenbrown 15min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post-img-1.jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user3.jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Jane Doe</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@janedoe 35min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post-img-2.jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user4.jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>John Thompson</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@johnthompson 56min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post-img-3.jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user5.jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Franco Dias</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@francodias 1h 7min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post-img-4.jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user6.jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Jack Reynolds</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@jackreynolds 1h 37min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post-img-5.jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user7 (1).jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Raj Sharma</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@rajsharma 1h 47min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post7 (1).jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user7 (2).jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Mike Edwin</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@mikeedwin 1h 49min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post7 (2).jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user7 (3).jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Anna Petrov</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@annapetrov 1h 59min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post7 (3).jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user7 (4).jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Nathalie Bieber</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@nathaliebieber 2h 3min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post7 (4).jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post border">
+                <div class="user-avatar">
+                    <img src="images/user7 (5).jpg">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-cl">
+                        <h4>Salma Mansour</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span>@salmamansour 2h 14min</span>
+                    </div>
+                    <p class="post-text light-cl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum at eos voluptatem iure temporibus libero ipsum doloremque est! Qui?</p>
+                    <div class="post-img">
+                        <img src="images/post7 (5).jpg">
+                    </div>
+                    <div class="post-icons">
+                        <i class="far fa-comment"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="follow dark-mode-1">
+            <h3 class="follow-heading light-cl border">Who to follow</h3>
+            <div class="follow-user border">
+                <div class="follow-user-img">
+                    <img src="images/followp1 (1).jpg">
+                </div>
+                <div class="follow-user-info light-cl">
+                    <h4>Ann Smith</h4>
+                    <p>@annsmith</p>
+                </div>
+                <button type="button" class="follow-btn dark-mode-2">Follow</button>
+            </div>
+            <div class="follow-user border">
+                <div class="follow-user-img">
+                    <img src="images/followp1 (2).jpg">
+                </div>
+                <div class="follow-user-info light-cl">
+                    <h4>Justin Blunt</h4>
+                    <p>@justinblunt</p>
+                </div>
+                <button type="button" class="follow-btn dark-mode-2">Follow</button>
+            </div>
+            <div class="follow-user border">
+                <div class="follow-user-img">
+                    <img src="images/followp1 (3).jpg">
+                </div>
+                <div class="follow-user-info light-cl">
+                    <h4>Jesse Carter</h4>
+                    <p>@jessecarter</p>
+                </div>
+                <button type="button" class="follow-btn dark-mode-2">Follow</button>
+            </div>
+            <div class="follow-link">
+                <a href="#">Show more</a>
+            </div>
+            <footer class="follow-footer dark-mode-2">
+              <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Coockies</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">More</a></li>
+              </ul>
+            </footer>
+         </div>
+        </div> 
+        <!--end of feeds content-->
+        <button type="button" class="post-btn">
+            <i class="fas fa-feather-alt"></i> Post
+        </button>
+        <!--post modal-->
+        <div class="modal-wrapper">
+            <div class="modal dark-mode-1">
+                <div class="modal-header border">
+                    <i class="fas fa-times"></i>
+                    <button type="button" style="cursor: pointer;">Post</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="images/user1.jpg">
+                    </div>
+                    <input type="text" placeholder="What's happening?" class="modal-input dark-mode-2 light-cl border">
+                    <i class="far fa-smile"></i>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-icons">
+                        <i class="far fa-image"></i>
+                        <i class="fas fa-camera"></i>
+                        <i class="far fa-chart-bar"></i>
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of post modal-->
+        <!--sidebar-->
+        <div class="sidebar-wrapper">
+            <div class="sidebar dark-mode-1">
+                <div class="sidebar-header border">
+                    <h2 class="light-cl">Account info</h2>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-img">
+                        <img src="images/user1.jpg">
+                    </div>
+                    <span>+</span>
+                </div>
+                <div class="sidebar-user-info light-cl">
+                    <h4>Jane Smith</h4>
+                    <p>@janesmith</p>
+                </div>
+                <div class="following light-cl">
+                    <p class="following-paragraph">
+                        <span>711</span> Following
+                    </p>
+                    <p class="following-paragraph">
+                        <span>7.89k</span> Followers
+                    </p>
+                </div>
+                <div class="sidebar-list-1 border">
+                  <ul>
+                    <li><a href="#">
+                        <i class="fas fa-user"></i> Profile
+                    </a></li>
+                    <li><a href="#">
+                        <i class="far fa-list-alt"></i> Lists
+                    </a></li>
+                    <li><a href="#">
+                        <i class="far fa-bookmark"></i> Bookmarks
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fab fa-adversal"></i> Ads
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-chart-line"></i> Analytics
+                    </a></li>
+                  </ul>
+                </div>
+                <div class="sidebar-list-2 border">
+                    <ul>
+                        <li><a href="#">Settings and Privacy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+                <!--dark mode-->
+                <div class="dark-mode">
+                    <p>Dark Mode</p>
+                    <div class="toggle">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </div>
+                <!--end of dark mode-->
+            </div>
+        </div>
+        <!--end of sidebar-->
+    </section>
+    <!--end of feeds page-->
+   <script src="script.js"></script> 
+</body>
+</html>
